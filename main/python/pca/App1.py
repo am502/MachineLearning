@@ -66,4 +66,4 @@ clf.fit(X_train, Y_train)
 pred = clf.predict_proba(X_test)
 
 # было 97% стало 95%, потеряли часть данных
-accuracy_score(Y_test, pred.argmax(axis=1))
+print(accuracy_score(Y_test, pred.argmax(axis=1)))
