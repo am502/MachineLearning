@@ -25,8 +25,8 @@ for item in make_dict(spam):
 for item in make_dict(imp):
     dataset.append(([item], 1))
 
-
 print(dataset)
+
 
 def fit(dataset, alpha):
     classes, freq, tot = {}, {}, set()
